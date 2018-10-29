@@ -82,7 +82,7 @@ package conecta.riobranco.primeira.versao;
  }
   
  public boolean getportadorDeficiencia(){
-     return portadorDeficiencia;
+     return portadorDeficiência;
  }
     
  public void setPortadorDeficiencia(boolean portadorDeficiência){
@@ -102,7 +102,7 @@ package conecta.riobranco.primeira.versao;
  }
   
  public void setBairro(String bairro){
-     this.burro = burro;
+     this.bairro = bairro;
  }
   
  public int getCep(){
@@ -126,15 +126,15 @@ package conecta.riobranco.primeira.versao;
  }
   
  public void setAceitarReceberPublicidade(boolean aceitarReceberPublicidade){
-     this.aceitarReceberPublicidade;
+     this.aceitarReceberPublicidade = aceitarReceberPublicidade;
  }
  
  public int getNumeroCelular(){
      return numeroCelular;
  }
     
- public void setNumeroCelular(int numeroDeCelular){
-     this.numeroDeCelular = numeroDeCelular;
+ public void setNumeroCelular(int numeroCelular){
+     this.numeroCelular = numeroCelular;
  }
   
  public String getDataDeNascimento(){
